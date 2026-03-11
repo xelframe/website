@@ -14,7 +14,6 @@ body {
     align-items: center;
     font: 14px 'ConsolasBold';
     color: #fff;
-    /* background-color: #181818; */
     background: url('/assets/background.jpg') center/cover no-repeat;
     text-align: center;
 }
