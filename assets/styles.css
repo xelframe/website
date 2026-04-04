@@ -11,19 +11,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     font: 14px 'ConsolasBold';
     color: #fff;
-    /* background: url('/assets/background.jpg') center/cover no-repeat; */
     background: #222222;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    flex: 1;
     width: 100%;
-    backdrop-filter: blur(2px);
     box-sizing: border-box;
     padding-left: 20%;
     padding-right: 20%;
