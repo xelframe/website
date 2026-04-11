@@ -10,68 +10,70 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    <h1 class="title">
-                <img src="assets/avatar.jpg" width="82" alt="avatar xd"> xelframe home page
-                <br>(bhzrd_, semkapc, catmpeg)
-    </h1>
-    <main>
-        <hr width="100%">
-                <h2>About me:</h2>
-                <ul>
-                  <li>hello, my online name is xelframe.</li>
-                  <li>i enjoy playing various games and listening to music.</li>
-                  <li>like the aesthetics of the 2000s, for example, frituger aero and others.</li>
-                  <li>some of my favorite games are garry's mod, half-life 1 & 2, ddnet, minecraft.</li>
-                  <li>=^.^=</li>
-                </ul>
-
-                <h2>Socials:</h2>
-                <ul>
-                  <li>Discord: xelframe</li>
-                  <li>Telegram: <a href="/telegram">xelframe</a></li>
-                  <li>Github: <a href="/github">xelframe</a></li>
-                  <li>Steam: <a href="/steam">xelframe</a></li>
-                  <li>YouTube: <a href="/youtube">xelframe</a></li>
-                  <li>Last.fm: <a href="/lastfm">xelframe</a></li>
-                </ul>
-
-                <h2>My friends:</h2>
-                <ul>
-                  <li>Cat.: <a href="https://cat8753.ru">cat8753.ru</a></li>
-                  <li>ShadowCj: <a href="https://shadowcj.site">shadowcj.site</a></li>
-                  <li>HonakAC: <a href="https://honakac.r2squad.ru">honakac.r2squad.ru</a></li>
-                  <li>Tolya Gosuslugi: <a href="https://tolya1337.ru">tolya1337.ru</a></li>
-                  <li>OctoBanon: <a href="https://octobanon.com">octobanon.com</a></li>
-                </ul><br>
-            <div id="last-played" style="display: none">
-              <h2>Latest played song:</h2>
-              <ul>
-                <li id="song">~~~~ - ~~~~</li>
-              </ul>
+    <div class="window">
+        <div class="titlebar">
+            <img src="assets/avatar.jpg" class="avatar">
+            <div>
+                <div class="title">xelframe home page</div>
+                <div class="subtitle">(bhzrd_, semkapc, catmpeg)</div>
             </div>
-            <script src="assets/lastplayed.js" defer></script>
-            <hr width="100%">
-            <br>
-            <div class="down">
-            <h3><a href="https://cat.fs.tlpteam.ru/git/" target="_blank">&gt;&gt; git &lt;&lt;</a></h3>
-            <h3>
-                <a href="https://otomir23.me/webring/xelframe/prev">&lt;prev</a>
-                <a href="https://otomir23.me/webring" target="_blank">webring</a>
-                <a href="https://otomir23.me/webring/xelframe/next">next&gt;</a>
-            </h3><br>
-                <a href="https://code.visualstudio.com" target="_blank" style="image-rendering:pixelated">
-                    <img src="assets/images/vscbutton.gif" height="31" width="88" alt="VSCode"></a>
-                <a href="https://xfree86.org" target="_blank" style="image-rendering:pixelated">
-                    <img src="assets/images/xfree.gif" height="31" width="88" alt="XFree86"></a>
-                <a href="https://archlinux.org" target="_blank" style="image-rendering:pixelated">
-                    <img src="assets/images/archlinux.gif" height="31" width="88" alt="Arch Linux"></a>
-                <a href="https://firefox.com" target="_blank" style="image-rendering:pixelated">
-                    <img src="assets/images/firefox.gif" height="31" width="88" alt="Firefox"></a>
-                <a href="https://github.com" target="_blank" style="image-rendering:pixelated">
-                    <img src="assets/images/github.gif" height="31" width="88" alt="Github"></a>
-                <a href="https://reddit.com" target="_blank" style="image-rendering:pixelated">
-                    <img src="assets/images/reddit.gif" height="31" width="88" alt="Reddit"></a>
-            </div><br>
-    </main>
+        </div>
+
+        <div class="content">
+            <div class="panel">
+                <h2>About me</h2>
+                <div>hello, my online name is xelframe.</div>
+                <div>i enjoy playing various games and listening to music.</div>
+                <div>i use linux only, no windows.</div>
+                <div>i enjoy minimalism.</div>
+                <div>some of my favorite games are garry's mod, half-life 1 & 2, ddnet, minecraft.</div>
+                <div>=^.^=</div>
+                <!-- <div><a href="/xelframe_0x62A7397D94F59A82_public.asc" download>gpg key</a></div> -->
+            </div>
+
+            <div class="panel">
+                <h2>Socials</h2>
+                <div>Discord: xelframe</div>
+                <div>Telegram: <a href="/telegram">xelframe</a></div>
+                <div>Github: <a href="/github">xelframe</a></div>
+                <div>Steam: <a href="/steam">xelframe</a></div>
+                <div>YouTube: <a href="/youtube">xelframe</a></div>
+                <div>Last.fm: <a href="/lastfm">xelframe</a></div>
+            </div>
+
+            <div class="panel">
+                <h2>My friends</h2>
+                <div>Cat.: <a href="https://cat8753.ru">cat8753.ru</a></div>
+                <div>ShadowCj: <a href="https://shadowcj.site">shadowcj.site</a></div>
+                <div>HonakAC: <a href="https://honakac.r2squad.ru">honakac.r2squad.ru</a></div>
+                <div>Tolya Gosuslugi: <a href="https://tolya1337.ru">tolya1337.ru</a></div>
+                <div>OctoBanon: <a href="https://octobanon.com">octobanon.com</a></div>
+            </div>
+
+            <div id="last-played" class="panel hidden">
+                <h2>Latest played song</h2>
+                <div id="song">~~~~ - ~~~~</div>
+            </div>
+
+            <div class="panel footer">
+                <div class="webring">
+                    <a href="https://otomir23.me/webring/xelframe/prev">prev</a>
+                    <a href="https://otomir23.me/webring" target="_blank">webring</a>
+                    <a href="https://otomir23.me/webring/xelframe/next">next</a>
+                </div>
+
+                <div class="x8831">
+                    <a href="https://code.visualstudio.com" target="_blank"><img src="assets/images/vscbutton.gif"></a>
+                    <a href="https://xfree86.org" target="_blank"><img src="assets/images/xfree.gif"></a>
+                    <a href="https://archlinux.org" target="_blank"><img src="assets/images/archlinux.gif"></a>
+                    <a href="https://firefox.com" target="_blank"><img src="assets/images/firefox.gif"></a>
+                    <a href="https://github.com" target="_blank"><img src="assets/images/github.gif"></a>
+                    <a href="https://reddit.com" target="_blank"><img src="assets/images/reddit.gif"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/lastplayed.js" defer></script>
 </body>
 </html>
