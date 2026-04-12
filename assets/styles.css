@@ -101,6 +101,18 @@ a:hover {
     display: none;
 }
 
+.div-404 {
+    justify-content: center;
+    display: flex;
+    font-size: 6em;
+}
+
+.link-404 {
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+}
+
 @media (max-width: 900px) {
     .window {
         width: 100%;
